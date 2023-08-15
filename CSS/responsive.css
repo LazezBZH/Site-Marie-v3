@@ -8,17 +8,20 @@
     justify-content: center;
     /* flex-grow: 1; */
   }
+  h1 {
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width: 1440px) {
   .up {
     position: absolute;
     margin-top: -15rem;
   }
+  #home {
+    padding-top: 10rem;
+  }
 }
 @media screen and (max-width: 1280px) {
-  #home {
-    padding-top: 26vh;
-  }
 }
 @media screen and (max-width: 1110px) {
   nav {
@@ -38,16 +41,13 @@
   header {
     padding-bottom: 2rem;
   }
-  h1 {
-    font-size: 2rem;
-  }
 }
 @media screen and (max-width: 1060px) {
 }
 @media screen and (max-width: 980px) {
-  #home {
+  /* #home {
     padding-top: 20vh;
-  }
+  } */
   #contact {
     margin-top: -10rem;
   }
@@ -175,7 +175,7 @@
     margin-left: 2rem;
   }
   #home {
-    padding-top: 30vh;
+    /* padding-top: 30vh; */
   }
   .imageflottante6,
   .imageflottante7 {

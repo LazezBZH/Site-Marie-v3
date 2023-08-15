@@ -38,7 +38,6 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  padding-top: 1rem;
   gap: 2rem;
 }
 .header-title{
@@ -412,7 +411,7 @@ article:hover {
 
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-indent: 2rem;
 }
 /* sections */
