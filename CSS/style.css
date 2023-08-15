@@ -39,22 +39,40 @@ header {
   justify-content: space-between;
   margin: auto;
   padding-top: 1rem;
+  gap: 2rem;
 }
-
+.header-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.logo-container{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  gap: 1rem;
+}
 .logo {
-  width: 12vw;
+  max-width: 12vw;
   height: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .logo img {
-  width: 12vw;
+  max-width: 12vw;
   box-shadow: 0 0 15px 0;
   background: inherit;
   backdrop-filter: blur(10px);
   border-radius: 5px;
   padding: 0.5rem;
+}
+.logo-btn{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
 }
 h1 {
   font-size: 2.8rem;
@@ -65,9 +83,11 @@ h1 {
   backdrop-filter: blur(20px);
   border-radius: 5px;
   text-align: center;
-  padding: 1rem;
+  padding: 0;
   -webkit-text-stroke: 1px black;
   text-transform: uppercase;
+  margin: auto;
+  padding: 1rem;
 }
 
 /* NAV */
@@ -216,6 +236,7 @@ nav ul li {
   position: absolute;
   margin-top: -10rem;
 }
+
 .up2 {
   position: absolute;
   margin-top: -20rem;
@@ -223,12 +244,12 @@ nav ul li {
 /* burger */
 .sidenav {
   height: 100%;
-  width: 200px;
+  width: 60%;
   position: fixed;
   z-index: 1;
   top: 0;
-  right: -250px;
-  background-color: wheat;
+  left: -81vw;
+  background-color: #CFC2B8;
   padding-top: 60px;
   transition: left 0.5s ease;
 }
@@ -237,23 +258,39 @@ nav ul li {
   display: none;
 }
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 24px;
   text-decoration: none;
-  font-size: 25px;
-  color: #2c2c2cf2;
+  font-size: 1.1rem;
+  color: #5c2b0b;
   display: block;
   transition: 0.3s;
+    font-weight: bold;
 }
 .sidenav a:hover {
-  color: rgb(112, 161, 38);
+  color: rgb(3, 182, 176);
 }
 .sidenav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+.sidenavLi{
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+
+
+}
+.sidenavLi a{
+  padding-left: 8px;
+  color: #874010;
+}
+.sidenavLi::before{
+content: "\0025B8";
+ color: #874010;
+}
 .sidenav.active {
-  left: calc(100vw - 200px);
+  left: 0;
 }
 .sidenav .close {
   position: absolute;
@@ -265,7 +302,7 @@ nav ul li {
   display: block;
   width: 35px;
   height: 5px;
-  background-color: wheat;
+  background-color: #874010;
   margin: 6px 3px;
 }
 .sidenav button {
@@ -450,8 +487,6 @@ h4.specialh4 {
   margin-top: 5rem;
 }
 .sophro1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .sophro1 li h4 {
@@ -502,7 +537,7 @@ h4.specialh4 {
 }
 
 .header-contact {
-  /* width: 50%; */
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -571,7 +606,7 @@ footer {
   font-size: 1rem;
   text-align: center;
   height: 5rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-top: 2rem;
 }
 .btn {

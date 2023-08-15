@@ -52,7 +52,7 @@
         <div class="svg-animation">
           <svg id="logo" class="logo-loader" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 100 100" xml:space="preserve">
-          <path id="zenman" class="zenman" d="M30.435,49.849c0.108-0.105,31.666-30.872-0.004-30.872c-31.654,0-0.139,30.743-0.004,30.872
+          <path id="zenman" fill="#AED5FF" transform="scale(.0 2)" class="zenman" d="M30.435,49.849c0.108-0.105,31.666-30.872-0.004-30.872c-31.654,0-0.139,30.743-0.004,30.872
             c-14.966-5.686-29.926-11.366-29.926,0c0,11.372,14.96,5.69,29.93,0h0.002c14.967,5.69,29.932,11.372,29.932,0
             C60.365,38.482,45.4,44.172,30.435,49.849 M30.431,18.331c3.652,0,6.608-3.963,6.608-8.843c0-4.891-2.956-8.855-6.608-8.855
             c-3.65,0-6.607,3.965-6.607,8.855C23.824,14.368,26.781,18.331,30.431,18.331"/>
@@ -65,14 +65,55 @@
       <!-- header -->
       <header>
           <div class="header-top">
-            <div class="logo">
-              <a href="/#home"><img src="images/logo@2x.png" alt="logo" /></a>
+            <div class="logo-container">
+              <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">&#x2BBF;</a>
+                <ul >
+                  <li>
+                    <a href="/#home" class=" i18n" data-i18n="navHome">Accueil</a>
+                  </li>
+                <li>
+                  <a href="/#aboutme" class=" i18n" data-i18n="navAbout">Qui suis-je?</a>
+                  </li>
+                <li>
+                  <a href="/#sophro"  class=" i18n" data-i18n="navSophro">Sophrologie</a>
+                  <ul>
+                    <li class="sidenavLi"><a href="/#defs" class=" i18n" data-i18n="navDefs">Qu'est-ce que la sophrologie?</a></li>
+                    <li class="sidenavLi"><a href="/#adults" class=" i18n" data-i18n="navAdults"> Pour les adultes</a></li>
+                    <li class="sidenavLi"><a href="/#children" class=" i18n" data-i18n="navChildren">Pour les enfants et les adolescents</a></li>
+                    <li class="sidenavLi"><a href="/#business" class=" i18n" data-i18n="navBusiness">En entreprise</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/#reiki" class=" i18n" data-i18n="navReiki">Reiki</a>
+                  <ul>
+                    <li class="sidenavLi"><a href="/#defr"  class=" i18n" data-i18n="navDefr">Qu'est-ce que le Reiki?</a></li>
+                    <li class="sidenavLi"><a href="/#benefitsr" class=" i18n" data-i18n="navBenefitsr">Les bienfaits du Reiki</a></li>
+                    <li class="sidenavLi"><a href="/#distancer" class=" i18n" data-i18n="navDistancer">Reiki à distance</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a  href="/#contact" class=" i18n" data-i18n="navContact">Contact</a>
+                </li>
+              </ul>
+              
             </div>
-            <div>
-              <!-- <a id="btn1" href="# i18n" data-i18n="myKey" i18n-options="{ 'fr': 'en' }"></a> -->
+            <div id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+              <div class="logo">
+                <a href="/#home"><img src="images/logo@2x.png" alt="logo" /></a>
+            </div>
+            <div class="logo-btn">
+
               <button type="button" class="lang-switcher  i18n" data-i18n="switch">English website</button>
             </div>
-            <div>
+              </div>
+            <div class="header-title">
               <h1 class=" i18n" data-i18n="h1">Marie Aballea: Sophrologie et Reiki. France/Irlande</h1>
             </div>
           </div>
@@ -106,42 +147,7 @@
                   </li>
               </ul>
           </nav>
-          <div id="mySidenav" class="sidenav">
-                <a id="closeBtn" href="#" class="close">×</a>
-                <ul >
-                <li>
-                  <a href="aboutme-sophrologie-/">Qui suis-je?</a>
-                  </li>
-                <li>
-                  <a href="/">Sophrologie</a>
-                  <ul>
-                    <li><a href="/#sophro">Qu'est-ce que la sophrologie?</a></li>
-                    <li><a href="/#adults">Pour les adultes</a></li>
-                    <li><a href="/#children">Pour les enfants et les adolescents</a></li>
-                    <li><a href="/#business">En entreprise</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="/">Reiki</a>
-                  <ul>
-                    <li><a href="/#reiki">Qu'est-ce que le Reiki?</a></li>
-                    <li><a href="/#benefitsr">Les bienfaits du Reiki</a></li>
-                    <li><a href="/#distancer">Reiki à distance</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a target="_blank" href="contact-sophrologie-/">Contact</a>
-                </li>
-              </ul>
-              
-            </div>
-            <div id="openBtn">
-                <span class="burger-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-            </div>
+          
         </header>
        
     <!-- page d'accueil -->
@@ -185,7 +191,7 @@
                 <div class="homeH2div"><div class="h2div"><h2 class="aboutmeh2 section-title i18n" data-i18n="about1"></h2></div></div>
        <article >
         
-          <img src="/images/aboutme.jpg" class="imageflottante" alt="image flottante"/> 
+          <p class="imgflotp"><img src="/images/aboutme.jpg" class="imageflottante" alt="image flottante"/> </p>
         <p class=" i18n" data-i18n="about2"></p>
         <p class=" i18n" data-i18n="about22"> </p>
       <p class=" i18n" data-i18n="about3"></p>
@@ -229,7 +235,7 @@
         
         </ul>
       </p>
-      <p id="zen" ><img src="/images/zen.jpg" class="imageflottante8" alt=""></p>
+      <div id="zen" ><img src="/images/zen.jpg" class="imageflottante8" alt=""></div>
 </div>
       <h4 class="specialh4 i18n" data-i18n="sophro11">
         
@@ -244,7 +250,7 @@
 </h2>
       </div>
       
-        <p><img src="/images/adults.jpg" class="imageflottante4" alt=""></p>
+        <div class="imgflotp"><img src="/images/adults.jpg" class="imageflottante4" alt=""></div>
         <ul>
           <li class=" i18n" data-i18n="sophro13"></li>
           <li class=" i18n" data-i18n="sophro14"></li>
@@ -266,7 +272,7 @@
 <div class="h2div">
   <h2 class=" i18n" data-i18n="sophro22"> </h2>
 </div>
-<p><img src="/images/children.jpg" class="imageflottante2" alt=""></p>
+<div class="imgflotp"><img src="/images/children.jpg" class="imageflottante2" alt=""></div>
 
 
 
@@ -275,7 +281,7 @@
       <div class="h2div"><h4 id="teenagers" class=" i18n" data-i18n="sophro23"></h4></div>
       <p class=" i18n" data-i18n="sophro24"> </p>
       <div class="h2div"><h4 class=" i18n" data-i18n="sophro25"> </h4></div>
-      <p><img src="/images/teen.jpg" class="imageflottante3" alt=""></p>
+      <div class="imgflotp"><img src="/images/teen.jpg" class="imageflottante3" alt=""></div>
       <p class=" i18n" data-i18n="sophro26">
         <ul>
           <li class=" i18n" data-i18n="sophro27"></li>
@@ -353,7 +359,7 @@
           <article class="reki_benef">
           <div class="h2div"><h3 class=" i18n" data-i18n="reiki8"></h3></div>
           
-          <p><img src="/images/reiki.jpg" class="imageflottante6" alt=""></p>
+          <div class="imgflotp"><div><img src="/images/reiki.jpg" class="imageflottante6" alt=""></div></div>
         <ul>
             <li class=" i18n" data-i18n="reiki9"></li>
             <li class=" i18n" data-i18n="reiki10"></li>
@@ -379,7 +385,7 @@
         <p class=" i18n" data-i18n="reiki25"></p>
 <div class="h2div"><h4 class=" i18n" data-i18n="reiki26"></h4></div>
         
-        <p><img src="/images/soleil.jpg" class="imageflottante7" alt=""></p>
+        <div class="imgflotp"><img src="/images/soleil.jpg" class="imageflottante7" alt=""></div>
         <p class=" i18n" data-i18n="reiki27"></p>
         <p class=" i18n" data-i18n="reiki28"></p>
         <p  class=" i18n" data-i18n="reiki29"></p>
@@ -427,6 +433,7 @@
   <script src="/JS/i18n.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.1.0/snap.svg-min.js"></script>
   <script src="/JS/loader.js"></script>
+  <script src="/JS/sidenav.js"></script>
  
   </body>
   
