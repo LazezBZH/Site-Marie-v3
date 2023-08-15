@@ -120,13 +120,13 @@
           <nav>
               <ul id="menu-demo2">
                   <li>
-                    <a href="/#home" class=" i18n" data-i18n="navHome">Accueil</a>
+                    <a id="link-1" href="/#home" class=" i18n" data-i18n="navHome">Accueil</a>
                   </li>
                   <li>
-                    <a href="/#aboutme" class=" i18n" data-i18n="navAbout">Qui suis-je</a>
+                    <a id="link-2" href="/#aboutme" class=" i18n" data-i18n="navAbout">Qui suis-je</a>
                     </li>
                   <li>
-                    <a href="/#sophro" class=" i18n" data-i18n="navSophro">Sophrologie</a>
+                    <a id="link-3" href="/#sophro" class=" i18n" data-i18n="navSophro">Sophrologie</a>
                     <ul>
                       <li><a href="/#defs" class=" i18n" data-i18n="navDefs">Qu'est-ce que la sophrologie?</a></li>
                       <li><a href="/#adults" class=" i18n" data-i18n="navAdults">Pour les adultes</a></li>
@@ -135,7 +135,7 @@
                     </ul>
                   </li>
                   <li>
-                    <a href="/#reiki" class=" i18n" data-i18n="navReiki">Reiki</a>
+                    <a id="link-4" href="/#reiki" class=" i18n" data-i18n="navReiki">Reiki</a>
                     <ul>
                       <li><a href="/#defr" class=" i18n" data-i18n="navDefr">Qu'est-ce que le Reiki?</a></li>
                       <li><a href="/#benefitsr" class=" i18n" data-i18n="navBenefitsr">Les bienfaits du Reiki</a></li>
@@ -143,7 +143,7 @@
                     </ul>
                   </li>
                   <li>
-                    <a href="/#contact" class=" i18n" data-i18n="navContact">Contact</a>
+                    <a id="link-5" href="/#contact" class=" i18n" data-i18n="navContact">Contact</a>
                   </li>
               </ul>
           </nav>
@@ -158,7 +158,7 @@
                 <img src="images/france.jpg" >
               </div>
               <div>
-                <h2 class="section-title i18n" data-i18n="home0">Bienvenue sur mon site web!</h2>
+                <h2 class="section-title heading-1 i18n" data-i18n="home0">Bienvenue sur mon site web!</h2>
               </div>
               <div class="homeImg">
                 <img src="images/irlande.jpg" >
@@ -166,7 +166,7 @@
             </div>
             <article class="sophro_definition">
               <div class="h2div">
-                <h2 class=" i18n" data-i18n="home1">La sophrologie</h2>
+                <h2 class="i18n" data-i18n="home1">La sophrologie</h2>
               </div>
               <p class=" i18n" data-i18n="home2">Créée dans les années 60 par Alfredo CAYCEDO Neuropsychiatre, la sophrologie s'inspire de plusieurs disciplines telles que l'hypnose ainsi que des  techniques orientales comme le yoga and le zen. L'union de techniques orientales et occidentales.</p>
               <p class=" i18n" data-i18n="home3">La sophrologie est une discipline qui aide chacun de nous à atteindre sérénité et bien-être via des techniques de développement personnel qui vont agir sur le corps de l'esprit. Elle combine des exercices axés sur la respiration et la concentration, la relaxation musculaire et l'imagerie mentale (visualisation).</p>
@@ -188,7 +188,7 @@
         <section  class="aboutme parallax">
           <div id="aboutme" class="up"></div>
             <div class="aboutme-container">
-                <div class="homeH2div"><div class="h2div"><h2 class="aboutmeh2 section-title i18n" data-i18n="about1"></h2></div></div>
+                <div class="homeH2div"><div class="h2div"><h2 class="aboutmeh2 heading-2  section-title i18n" data-i18n="about1"></h2></div></div>
        <article >
         
           <p class="imgflotp"><img src="/images/aboutme.jpg" class="imageflottante" alt="image flottante"/> </p>
@@ -208,7 +208,7 @@
           <div id="sophro" class="up"></div>
           <div class="sophro-container">
             <div class="homeH2div"><div class="h2div">
-       <h2 class="section-title i18n" data-i18n="sophro0"></h2>
+       <h2 class="section-title heading-3  i18n" data-i18n="sophro0"></h2>
      </div></div>
             <article class="sophro_definition" >
           
@@ -326,11 +326,11 @@
             </section>
 
     <!-- reiki         -->
-        <section  class="reiki parallax heading-4">
+        <section  class="reiki parallax ">
            <div id="reiki" class="up"></div>
            <div class="reiki-container">
            
-           <div class="homeH2div"><div class="h2div"><h2 class="h2centre section-title i18n" data-i18n="reiki1"></h2></div></div> 
+           <div class="homeH2div"><div class="h2div"><h2 class="h2centre heading-4  section-title i18n" data-i18n="reiki1"></h2></div></div> 
       
         
         
@@ -397,10 +397,10 @@
         </section>
 
     <!-- contact     -->
-        <section  class="contact parallax heading-6">
+        <section  class="contact parallax ">
           <div id="contact" class="up"></div>
            <div class="homeH2div"><div class="h2div">
-        <h2 class="section-title i18n" data-i18n="contact1"></h2>
+        <h2 class="section-title heading-5 i18n" data-i18n="contact1"></h2>
       </div></div>
           
       <div class="contact-container">
@@ -434,6 +434,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.1.0/snap.svg-min.js"></script>
   <script src="/JS/loader.js"></script>
   <script src="/JS/sidenav.js"></script>
+  <script src="/JS/observers.js"></script>
  
   </body>
   
