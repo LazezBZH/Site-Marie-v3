@@ -423,6 +423,7 @@ p {
   background-position: center;
   min-height: 100vh;
   position: relative;
+    padding-bottom: 8rem;
 }
 .aboutme {
   background-image: url(/assets/bg/bg2.jpg);
@@ -431,6 +432,7 @@ p {
   background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
+    padding-bottom: 8rem;
 }
 .sophro {
   background-image: url(/assets/bg/bg3.jpg);
@@ -439,6 +441,7 @@ p {
   background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
+    padding-bottom: 8rem;
 }
 
 .reiki {
@@ -448,6 +451,7 @@ p {
   background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
+    padding-bottom: 8rem;
 }
 .contact {
   background-image: url(/assets/bg/bg5.jpg);
@@ -462,6 +466,7 @@ p {
   width: 100%;
   min-height: 50vh;
   padding-top: 10vw;
+
   background-attachment: fixed;
 }
 
