@@ -179,7 +179,7 @@ let fr = [
   },
   {
     sophroPara7:
-      "Il propose des outils et des stratégies pratiques pour augmenter le bien-être des collaborateurs mais aussi pour:",
+      "Elle propose des outils et des stratégies pratiques pour augmenter le bien-être des collaborateurs mais aussi pour:",
   },
   { sophroUl4Li1: "\u2b27 Augmenter les performances et la créativité," },
   { sophroUl4Li2: "\u2b27 Éviter le burn out," },
@@ -278,7 +278,7 @@ let fr = [
   },
   {
     contactForm:
-      '<a href="https://forms.gle/uNt3CuQX9QPtZv318"><img src="/images/formfr.jpg" alt=""></a>',
+      '<a href="https://forms.gle/uNt3CuQX9QPtZv318" aria-label="formulaire de contact"><img loading="lazy"  src="/assets/images/formfr.webp" alt=""></a>',
   },
   {
     contactPara1:
@@ -564,7 +564,7 @@ let en = [
   },
   { contactTitle: "You can contact me via this form or via the links below." },
   {
-    contactForm: `<a href="https://forms.gle/42yqmJ26zecSsn5i9"><img  src="/images/formen.jpg" alt=""></a>`,
+    contactForm: `<a href="https://forms.gle/42yqmJ26zecSsn5i9" aria-label="contact form"><img loading="lazy"   src="/assets/images/formen.webp" alt=""></a>`,
   },
   { contactPara1: "Click on the image to be redirected to the contact form." },
   {
