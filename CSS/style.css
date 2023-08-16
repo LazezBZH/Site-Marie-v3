@@ -293,10 +293,23 @@ content: "\0025B8";
   left: 0;
 }
 .sidenav .close {
+  width: 20px;
+  height: 20px;
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
+  top: 10px;
+  right:10px;
+  font-size: 20px;
+  font-weight: bold;
+color: #5c2b0b;
+border: solid 3px #5c2b0b;
+border-radius: 50%;
+text-align: center;
+line-height: 20px;
+}
+.sidenav .close:hover{
+  color: #874010;
+border: solid 3px #874010;
+background-color:rgb(3, 182, 176) ;
 }
 .burger-icon span {
   display: block;

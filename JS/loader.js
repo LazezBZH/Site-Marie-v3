@@ -4,14 +4,14 @@ let zen = function () {
     fill: "#AED5FF",
   });
   logo.select(".zenman").transform("s.2,t98,105");
-  logo
-    .text(20, 10, "Bienvenue / Welcome")
-    .attr({
-      fill: "#874010",
-      "font-family": "Varela Round",
-      "text-shadow": "0 0 52px #000",
-    })
-    .transform("t-19,89.5");
+  // logo
+  //   .text(20, 10, "Bienvenue / Welcome")
+  //   .attr({
+  //     fill: "#874010",
+  //     "font-family": "Varela Round",
+  //     "text-shadow": "0 0 52px #000",
+  //   })
+  //   .transform("t-19,89.5");
 
   const circle = Snap.select(".circle");
 

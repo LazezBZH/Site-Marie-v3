@@ -6,7 +6,6 @@
   .header-title {
     display: flex;
     justify-content: center;
-    /* flex-grow: 1; */
   }
   h1 {
     font-size: 1.8rem;
@@ -40,6 +39,7 @@
   }
   header {
     padding-bottom: 2rem;
+    padding-top: 1rem;
   }
 }
 @media screen and (max-width: 1060px) {
@@ -78,6 +78,9 @@
     flex-direction: column;
     align-items: center;
   }
+  #home {
+    padding-top: 11rem;
+  }
 }
 @media screen and (max-width: 780px) {
   .imageflottante2 {
@@ -113,15 +116,20 @@
   .imageflottante7,
   .imageflottante4,
   .imageflottante2,
-  .imageflottante3 {
+  .imageflottante3,
+  .imageflottante5 {
     padding: 0;
     margin: 0;
   }
   .imageflottante,
-  .imageflottante3 {
+  .imageflottante3,
+  .imageflottante5 {
     float: none;
     width: 15rem;
     margin-bottom: 2rem;
+  }
+  .imageflottante5 {
+    margin-top: 2rem;
   }
   .logofooter {
     justify-content: center;
@@ -143,6 +151,89 @@
   }
   .homeImg {
     display: none;
+  }
+  .loader-text {
+    display: none;
+  }
+  .loader-text_small::before {
+    width: 200%;
+    max-width: 280px;
+    animation: change-text-small 1300ms 1;
+    content: "Bienvenue / welcome !";
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #874010;
+    box-shadow: 0 0 15px 0;
+    background: inherit;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  @keyframes change-text-small {
+    0% {
+      content: "";
+    }
+    6% {
+      content: "B ";
+    }
+    12% {
+      content: "Bi ";
+    }
+    18% {
+      content: "Bien ";
+    }
+    24% {
+      content: "Bienv ";
+    }
+    30% {
+      content: "Bienve ";
+    }
+    36% {
+      content: "Bienven ";
+    }
+    41% {
+      content: "Bienvenu";
+    }
+    46% {
+      content: "Bienvenue";
+    }
+    52% {
+      content: "Bienvenue /";
+    }
+    58% {
+      content: "Bienvenue / w";
+    }
+    63% {
+      content: "Bienvenue / we";
+    }
+    69% {
+      content: "Bienvenue / wel";
+    }
+    74% {
+      content: "Bienvenue / welc";
+    }
+    82% {
+      content: "Bienvenue / welco";
+    }
+    88% {
+      content: "Bienvenue / welcom";
+    }
+    95% {
+      content: "Bienvenue / welcome ";
+    }
+
+    100% {
+      content: "Bienvenue / welcome !";
+    }
   }
 }
 @media screen and (max-width: 510px) {
@@ -175,7 +266,7 @@
     margin-left: 2rem;
   }
   #home {
-    /* padding-top: 30vh; */
+    padding-top: 12rem;
   }
   .imageflottante6,
   .imageflottante7 {
