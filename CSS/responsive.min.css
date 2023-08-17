@@ -145,7 +145,7 @@
   .loader-text_small::before {
     width: 200%;
     max-width: 280px;
-    animation: change-text-small 1300ms 1;
+    animation: change-text-small 500ms 1;
     content: "Bienvenue/welcome!";
     position: absolute;
     top: 115%;

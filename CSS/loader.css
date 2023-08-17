@@ -48,7 +48,7 @@
 /* texte */
 .loader-text::before {
   width: 200%;
-  animation: change-text 1300ms 1;
+  animation: change-text 500ms 1;
   content: "Bienvenue / welcome !";
   position: absolute;
   top: 110%;
