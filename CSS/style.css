@@ -53,14 +53,15 @@ header {
   gap: 1rem;
 }
 .logo {
-  max-width: 12vw;
+  width: 12vw;
   height: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .logo img {
-  max-width: 12vw;
+ width: 100%;
+ height: 100%;
   box-shadow: 0 0 15px 0;
   background: inherit;
   backdrop-filter: blur(10px);
