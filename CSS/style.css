@@ -765,6 +765,7 @@ footer {
 
 .imageflottante8 {
   width: 18rem;
+  height: auto;
   margin: 0 2rem;
 }
 .imageflottante8:hover {
@@ -778,6 +779,7 @@ footer {
 .imageflottante {
   float: right;
   width: 22rem;
+    height: auto;
   -webkit-transform: rotate(8deg);
   -ms-transform: rotate(8deg);
   transform: rotate(8deg);
@@ -798,6 +800,7 @@ footer {
     /*teens*/
   float: right;
   width: 25rem;
+    height: auto;
   -webkit-transform: rotate(8deg);
   -ms-transform: rotate(8deg);
   transform: rotate(8deg);
@@ -817,6 +820,7 @@ footer {
   /*teens*/
   float: left;
   width: 25rem;
+    height: auto;
   -webkit-transform: rotate(-8deg);
   -ms-transform: rotate(-8deg);
   transform: rotate(-8deg);
@@ -836,6 +840,7 @@ footer {
   /*adults*/
   float: right;
   width: 18rem;
+    height: auto;
   -webkit-transform: rotate(8deg);
   -ms-transform: rotate(8deg);
   transform: rotate(8deg);
@@ -855,6 +860,7 @@ footer {
   /*business*/
   float: right;
   width: 14rem;
+    height: auto;
   margin-top: 2rem;
 }
 .imageflottante5:hover {
@@ -869,6 +875,7 @@ footer {
   /*reiki*/
   float: right;
   width: 25rem;
+    height: auto;
   -webkit-transform: rotate3d(0, 0, 0, 0deg);
   transform: rotate3d(0, 0, 0, 0deg);
   -webkit-transition-duration: 10s;
@@ -885,6 +892,7 @@ footer {
 .imageflottante7 {
   float: left;
   width: 25rem;
+    height: auto;
   -webkit-transform: rotate3d(0, 0, 0, 0deg);
   transform: rotate3d(0, 0, 0, 0deg);
   -webkit-transition-duration: 10s;
