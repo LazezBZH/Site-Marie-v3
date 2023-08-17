@@ -3,7 +3,6 @@
   height: 100vh;
   overflow: hidden;
   background: #ccc;
-
   text-align: center;
   background-image: url("/assets/bg/header2.webp");
   background-position: center;
@@ -25,7 +24,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.4);
-
   border-radius: 50%;
 }
 .logo-loader {
@@ -44,12 +42,10 @@
   height: 100%;
   left: 0;
 }
-
-/* texte */
 .loader-text::before {
   width: 200%;
   animation: change-text 1300ms 1;
-  content: "Bienvenue / welcome !";
+  content: "Bienvenue/welcome!";
   position: absolute;
   top: 110%;
   left: 50%;
@@ -67,28 +63,27 @@
   margin: auto;
   padding: 1rem;
 }
-
 @keyframes change-text {
   0% {
     content: "";
   }
   6% {
-    content: "B ";
+    content: "B";
   }
   12% {
-    content: "Bi ";
+    content: "Bi";
   }
   18% {
-    content: "Bien ";
+    content: "Bien";
   }
   24% {
-    content: "Bienv ";
+    content: "Bienv";
   }
   30% {
-    content: "Bienve ";
+    content: "Bienve";
   }
   36% {
-    content: "Bienven ";
+    content: "Bienven";
   }
   41% {
     content: "Bienvenu";
@@ -97,31 +92,30 @@
     content: "Bienvenue";
   }
   52% {
-    content: "Bienvenue /";
+    content: "Bienvenue/";
   }
   58% {
-    content: "Bienvenue / w";
+    content: "Bienvenue/w";
   }
   63% {
-    content: "Bienvenue / we";
+    content: "Bienvenue/we";
   }
   69% {
-    content: "Bienvenue / wel";
+    content: "Bienvenue/wel";
   }
   74% {
-    content: "Bienvenue / welc";
+    content: "Bienvenue/welc";
   }
   82% {
-    content: "Bienvenue / welco";
+    content: "Bienvenue/welco";
   }
   88% {
-    content: "Bienvenue / welcom";
+    content: "Bienvenue/welcom";
   }
   95% {
-    content: "Bienvenue / welcome ";
+    content: "Bienvenue/welcome";
   }
-
   100% {
-    content: "Bienvenue / welcome !";
+    content: "Bienvenue/welcome!";
   }
 }
