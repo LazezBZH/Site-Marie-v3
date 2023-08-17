@@ -56,11 +56,12 @@
 @media screen and (max-width: 850px) {
   .imageflottante8 {
     float: none;
+    margin: 0;
   }
   .imageflottante8:hover {
-    -webkit-transform: translateY(3rem) scale(1.3);
-    -ms-transform: translateY(3rem) scale(1.3);
-    transform: translateY(3rem) scale(1.3);
+    -webkit-transform: translateY(3rem) scale(1.1);
+    -ms-transform: translateY(3rem) scale(1.1);
+    transform: translateY(3rem) scale(1.1);
     -webkit-transition-duration: 2000ms;
     -o-transition-duration: 2000ms;
     transition-duration: 2000ms;
@@ -150,7 +151,7 @@
   .loader-text_small::before {
     width: 200%;
     max-width: 280px;
-    animation: change-text-small 500ms 1;
+    animation: change-text-small 1000ms 1;
     content: "Bienvenue / welcome !";
     position: absolute;
     top: 115%;

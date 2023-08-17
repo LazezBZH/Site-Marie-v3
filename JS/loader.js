@@ -1,7 +1,7 @@
 let zen = function () {
   const logo = Snap.select(".logo-loader");
   logo.attr({
-    fill: "#AED5FF",
+    fill: "#874010F",
   });
   logo.select(".zenman").transform("s.2,t98,105");
   // logo

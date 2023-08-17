@@ -590,7 +590,7 @@ function setLang() {
   setTimeout(function () {
     loader.style.display = "none";
     header.style.zIndex = "999";
-  }, 1700);
+  }, 1000);
   html.setAttribute("lang", chosenLang);
   if (html.getAttribute("lang") === "fr") {
     writeInFrench();
