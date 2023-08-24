@@ -36,6 +36,9 @@
   .logo-btn {
     flex-grow: 0;
   }
+  .logo-copy a {
+    font-size: 0.5rem;
+  }
   header {
     padding-bottom: 2rem;
     padding-top: 1rem;
@@ -77,6 +80,9 @@
   #home {
     padding-top: 11rem;
   }
+  .copyright span {
+    font-size: 0.6rem;
+  }
 }
 @media screen and (max-width: 780px) {
   .imageflottante2 {
@@ -89,6 +95,10 @@
 }
 
 @media screen and (max-width: 670px) {
+  #social-platforms {
+    height: 7rem;
+  }
+
   .imageflottante4 {
     float: none;
     width: 15rem;
@@ -255,8 +265,8 @@
     left: 1rem;
   }
   .logo img {
-    max-width: 5rem;
-    margin-left: 2rem;
+    width: 50%;
+    margin-left: 3rem;
   }
   #home {
     padding-top: 12rem;
@@ -264,5 +274,10 @@
   .imageflottante6,
   .imageflottante7 {
     width: 15rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  #social-platforms {
+    height: 10rem;
   }
 }

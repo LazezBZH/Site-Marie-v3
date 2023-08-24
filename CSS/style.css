@@ -53,15 +53,35 @@ header {
   gap: 1rem;
 }
 .logo {
-  width: 12vw;
+  width:auto;
   height: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+   hyphens : none;
+}
+.logo div{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-copy{
+  width: auto;
+ overflow: visible;
+}
+.logo-copy a{
+
+  text-decoration: none;
+  color:#54270a ;
+  font-size: .8rem;
+  font-weight:bold;
+  background-color: rgba(245, 222, 179, 0.8);
 }
 .logo img {
- width: 100%;
- height: 100%;
+ width: 12vw;
+ height: 5wv;
   box-shadow: 0 0 15px 0;
   background: inherit;
   backdrop-filter: blur(10px);
@@ -598,6 +618,10 @@ h3.specialh4 {
 footer {
   padding: 2rem 0;
   background-color: rgba(194, 168, 147, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .logofooter img {
   padding: 0.3rem;
@@ -620,7 +644,18 @@ footer {
   padding: 0 2rem;
   margin: auto;
 }
-
+.copyright{
+  text-align: center;
+  color: #874010;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.copyright a{
+  color: #54270a;
+}
+.copyright span{
+  font-size: .7rem;
+}
 /*logos vers réseaux*/
 #social-platforms {
   font-size: 1rem;
