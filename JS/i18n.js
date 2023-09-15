@@ -22,6 +22,7 @@ let fr = [
   { navDistanceReiki: "Reiki à distance" },
   { navContact: "Contact" },
   { homeTitle: "Bienvenue sur mon site web!" },
+  { spin: "France / Irlande" },
   { homeSubTitle1: "La sophrologie" },
   {
     homePara1:
@@ -305,6 +306,7 @@ let en = [
   { navDistanceReiki: "Reiki distance" },
   { navContact: "Contact me" },
   { homeTitle: "Welcome on my website!" },
+  { spin: "Ireland / France" },
   { homeSubTitle1: "Sophrology" },
   {
     homePara1:

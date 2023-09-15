@@ -253,6 +253,10 @@ nav ul li {
   color: red;
 } */
 /* ancres */
+.up3{
+ position: absolute;
+  margin-top: -10rem;
+}
 .up {
   position: absolute;
   margin-top: -10rem;
@@ -365,6 +369,9 @@ background-color:rgb(3, 182, 176) ;
   justify-content: space-evenly;
   gap: 1rem;
 }
+.home-container{
+margin-top: 40px;
+}
 .section-title {
   color: rgb(52, 26, 1);
   box-shadow: 0 0 15px 0;
@@ -442,20 +449,33 @@ article:hover {
     backdrop-filter: blur(25px);/
   }
 }
-
+.home-articles{
+  display: flex;
+  gap: 1rem;
+}
+.home-articles p{
+  font-size: .9rem;
+}
 
 p {
   font-size: 1.1rem;
   text-indent: 2rem;
 }
 /* sections */
+.parallax {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 10vw;
+  background-attachment: fixed;
+}
+
 .home {
   background-image: url("/assets/bg/bg1.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
     padding-bottom: 8rem;
 }
@@ -494,15 +514,9 @@ p {
   background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
+ position: relative;
 }
 
-.parallax {
-  width: 100%;
-  min-height: 50vh;
-  padding-top: 10vw;
-
-  background-attachment: fixed;
-}
 
 /* HOME */
 .homeImg {
@@ -551,19 +565,26 @@ h3.specialh4 {
 }
 
 /* CONTACT */
+.contact-all{
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
+}
 .contact .homeH2div {
-  margin-top: 10vh;
+  margin-top:0;
+  margin-bottom: 0;
 }
 .contact-container{
   display: flex;
 }
 .form img {
   width: auto;
-  height: 31rem;
+  height: 200px;
   margin: auto;
   object-fit: cover;
   object-position: top;
-  border-radius: 3rem;
+  border-radius: 10px;
   -webkit-box-shadow: 3px 3px rgb(184, 180, 180),
     -1em 0 0.4em rgb(161, 161, 151);
   box-shadow: 3px 3px rgb(184, 180, 180), -1em 0 0.4em rgb(161, 161, 151);
@@ -584,15 +605,16 @@ h3.specialh4 {
   justify-content: center;
   align-items: center;
  padding:3rem 1rem;
-  margin: 2rem auto;
+  margin: auto;
+  margin-bottom:1rem;
+  margin-top: 5vh;
   background-color: rgba(44, 44, 44, 0.7);
   border-radius: 5px;
   box-shadow: 5px 5px 3px rgba(177, 130, 44, 0.4);
 }
-.contact h3 {
+.contact h2 {
   text-align: center;
-  color: rgb(173, 147, 2);
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 .contact a {
   text-decoration: none;
@@ -616,34 +638,19 @@ h3.specialh4 {
 }
 /* footer */
 footer {
-  padding: 2rem 0;
+  padding: 0;
   background-color: rgba(194, 168, 147, 0.7);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+
 }
-.logofooter img {
-  padding: 0.3rem;
-  background-color: rgba(245, 222, 179, 0.3);
-  width: 10rem;
-  border-radius: 5px;
-}
-.logofooter {
-  width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-margin-after: 3rem;
-  margin-block-end: 3rem;
-  -webkit-margin-before: 1rem;
-  margin-block-start: 1rem;
-  padding: 0 2rem;
-  margin: auto;
-}
+
 .copyright{
   text-align: center;
   color: #874010;

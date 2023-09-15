@@ -18,10 +18,11 @@
           src="https://kit.fontawesome.com/f272fe714d.js"
           crossorigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="css/style.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
 
-        <link rel="stylesheet" href="css/loader.min.css"/>
+        <link rel="stylesheet" href="css/loader.css"/>
+        <link rel="stylesheet" href="css/slider.css"/>
 
       
       
@@ -163,18 +164,82 @@
     <!-- page d'accueil -->
         <section id="home" class="home parallax">
           <div class="home-container">
-            <div class=" homeH2div">
-              <div  class="homeImg">
-                <img loading="lazy" alt="sophrologie en français"  src="/assets/images/france.webp" >
+            <article class="slides">
+              <h2 class="section-title heading-1 i18n" data-i18n="homeTitle">Bienvenue sur mon site web!</h2>
+              <div class="slider">
+                <input name="control" id="page1" type="radio" checked />
+                <input name="control" id="page2" type="radio" />
+                <input name="control" id="page3" type="radio" />
+                <input name="control" id="page4" type="radio" />
+                <!--first slide-->
+                <div class="slider-main slide1 animation-5">
+                  <div class="slideBg">
+                    <div class="part part-1"></div>
+                    <div class="part part-2"></div>
+                    <div class="part part-3"></div>
+                    <div class="part part-4"></div>
+                    <div class="part part-5"></div>
+                  </div>
+                  <div class="sliderTxt">
+                    <h2 class="sliderH2">
+                      <span id="spin" ></span>
+                    </h2>
+                    <p class=" i18n" data-i18n="spin">France /  Ireland </p>
+                  </div>
+              
+                </div>
+
+                <!--second slide-->
+                <div class="slider-main slide2 animation-9">
+                  <div class="slideBg">
+                    <div class="part left-top"></div>
+                    <div class="part mid-top"></div>
+                    <div class="part right-top"></div>
+                    <div class="part left-mid"></div>
+                    <div class="part mid-mid"></div>
+                    <div class="part right-mid"></div>
+                    <div class="part left-bot"></div>
+                    <div class="part mid-bot"></div>
+                    <div class="part right-bot"></div>
+                  </div>
+                  <div class="sliderTxt">
+                    <h2 class="sliderH2">FRANCE</h2>
+                    <p class="">Irlande</p> 
+                  </div>
+                
+                </div>
+
+                <!--third slide-->
+                <div class="slider-main slide3 animation-3">
+                  <div class="slideBg">
+                    <div class="part left"></div>
+                    <div class="part mid"></div>
+                    <div class="part right"></div>
+                  </div>
+                  <div class="sliderTxt">
+                    <h2 class="sliderH2">IRELAND</h2>
+                    <p class="">France </p>
+                  </div>
+                
+                </div>
+            
+                <!--fourth slide-->
+                <div class="slider-main slide4 animation-4">
+                  <div class="slideBg">
+                    <div class="part top left"></div>
+                    <div class="part top right"></div>
+                    <div class="part bot left"></div>
+                    <div class="part bot right"></div>
+                  </div> 
+                  <div class="sliderTxt">
+                    <h2 class="sliderH2">MARIE ABALLEA</h2>              
+                  </div>
+                </div>
+              
               </div>
-              <div>
-                <h2 class="section-title heading-1 i18n" data-i18n="homeTitle">Bienvenue sur mon site web!</h2>
-              </div>
-              <div class="homeImg">
-                <img loading="lazy" alt="sophrology in english" src="/assets/images/irlande.webp" >
-              </div>
-            </div>
-            <article class="sophro_definition">
+            </article>
+            <section class="home-articles">
+              <article class="sophro_definition">
               <div class="h2div">
                 <h2 class="i18n" data-i18n="homeSubTitle1">La sophrologie</h2>
               </div>
@@ -183,6 +248,7 @@
               <p><a href="/#sophro" class=" i18n" data-i18n="homeReadMore">"En savoir plus</a></p>
             </article>
             <article>
+            
               <div class="h2div">
                 <h2 class=" i18n" data-i18n="homeSubTitle2">Le reiki</h2>
               </div>
@@ -190,8 +256,10 @@
               <p class=" i18n" data-i18n="homePara4">Le mot Reiki est composé de deux mots : “REI” signifiant l'énergie vitale universelle “KI” signifiant l'énergie qui est en nous.</p>
               <p><a href="/#reiki" class=" i18n" data-i18n="homeReadMore">"En savoir plus</a></p>
             </article>
-          </div>
+         
          </section>
+          </div>
+        </section>
         
     
     <!-- parcours     -->
@@ -433,31 +501,25 @@
 
     <!-- contact     -->
         <section  class="contact parallax ">
-          <div id="contact" class="up"></div>
-          <div class="homeH2div">
-            <div class="h2div">
-              <h2 class="section-title heading-5 i18n" data-i18n="contactTitle">Vous pouvez me contacter via ce formulaire ou via les liens ci-dessous.</h2>
+          <div class="contact-all">
+            <div id="contact" class="up3"></div>
+            <div class="homeH2div">
+              <div class="h2div">
+                <h2 class="section-title heading-5 i18n" data-i18n="contactTitle">Vous pouvez me contacter via ce formulaire ou via les liens ci-dessous.</h2>
+              </div>
             </div>
-          </div>
            <div class="contact-container">
-            <section class="header-contact">
-              <div class="form  contact2 i18n" data-i18n="contactForm"><a href="https://forms.gle/uNt3CuQX9QPtZv318" aria-label="formulaire de contact"><img loading="lazy"  src="/assets/images/formfr-s.webp" alt=""></a></div>
-              <div class="pform">
-                <p class="contact3 i18n" data-i18n="contactPara1">Cliquez sur l'image pour être redirigé vers le formulaire de contact.</p>
-              </div>
-            </section>
-          </div>
-
-          <footer>
-            <div class="logofooter">
-              <div>
-                <a href="/#home"><img loading="lazy"  src="/assets/images/logo@2x.png" alt="logo" /></a>
-              </div>
-              <div id="logofooterzero"> 
-                <a href="/#home"><img loading="lazy"  src="/assets/images/logo@2x.png" alt="logo" /></a>
-              </div>
+              <section class="header-contact">
+                <div class="form  contact2 i18n" data-i18n="contactForm"><a href="https://forms.gle/uNt3CuQX9QPtZv318" aria-label="formulaire de contact"><img loading="lazy"  src="/assets/images/formfr-s.webp" alt=""></a></div>
+                <div class="pform">
+                   <p class="contact3 i18n" data-i18n="contactPara1">Cliquez sur l'image pour être redirigé vers le formulaire de contact.</p>
+                </div>
+              </section>
             </div>
-            
+          </div>
+        </section>
+
+        <footer>
             <div id="social-platforms">
               <a class="btn btn-icon btn-facebook" target="_blank" href="https://www.facebook.com/sophrosaintmalo"><i class="fa fa-facebook"></i><span>Facebook</span></a>
               <a class="btn btn-icon btn-linkedin"  target="_blank" href="https://www.linkedin.com/in/sophrologie-dinan/"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
@@ -467,14 +529,13 @@
             </div>
             <div class="copyright">Site réalisé par <a target="_blank" href="https://lazezbzh.fr/">LazezBZH <br><span>CRÉATION ET REFONTE DE SITES VITRINES, PORTFOLIOS, CARTES DE VISITE EN LIGNE POUR PROFESSIONNELS, ASSOCIATIONS ET PARTICULIERS</span></a></div>
           </footer>
-        
-        </section>
-
-    <script async src="/JS/i18n.min.js"></script>
+    <script async src="/JS/slider.js"></script>
+    <script async src="/JS/i18n.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.1.0/snap.svg-min.js"></script>
     <script async src="/JS/loader.min.js"></script>
     <script async src="/JS/sidenav.min.js"></script>
     <script async src="/JS/observers.min.js"></script>
+    
  
   </body>
   
