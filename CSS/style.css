@@ -23,7 +23,7 @@ header {
   position: fixed;
   top: 0%;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   background-color: #2c2c2cf2;
   display: flex;
   flex-direction: column;
@@ -956,4 +956,22 @@ footer {
   -moz-box-shadow: 5px 5px 3px 0px rgba(135, 64, 16, 0.7);
   box-shadow: 5px 5px 3px 0px rgba(135, 64, 16, 0.7);
   border: 1px rgb(52, 26, 1) solid;
+}
+
+.legals-back{
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: black;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: .5rem;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+.legals-container{
+  width: 95%;
+  margin: auto;
+  max-width: 1000px;
+  margin-bottom: 2rem;
 }

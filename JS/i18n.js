@@ -585,8 +585,28 @@ window.addEventListener("load", setLang);
 langSwitcher.addEventListener("click", switchLang);
 
 //au load
+
+window.addEventListener("load", stopLoader);
+let loaded = sessionStorage.getItem("loaded") || false;
+console.log(loaded);
+if (loaded) {
+  loader.style.display = "none";
+}
+sessionStorage.setItem("loaded", loaded);
+function stopLoader() {
+  setTimeout(() => {
+    loaded = true;
+    sessionStorage.setItem("loaded", loaded);
+  }, 3000);
+}
+setTimeout(() => {
+  loader.classList.add("loader-hidden");
+}, "3000");
+
 function setLang() {
-  loader.style.display = "block";
+  if (!loaded) {
+    loader.style.display = "block";
+  }
   window.scrollTo(0, 0);
 
   setTimeout(function () {
@@ -600,7 +620,6 @@ function setLang() {
     writeInEnglish();
   }
 }
-
 //au switch
 function switchLang() {
   if (html.getAttribute("lang") === "fr") {
