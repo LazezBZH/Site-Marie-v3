@@ -279,7 +279,7 @@ let fr = [
   },
   {
     contactForm:
-      '<a href="https://forms.gle/uNt3CuQX9QPtZv318" aria-label="formulaire de contact"><img loading="lazy"  src="/assets/images/formfr-s.webp" alt=""></a>',
+      '<a target="_blank"  href="https://forms.gle/uNt3CuQX9QPtZv318" aria-label="formulaire de contact"><img loading="lazy"  src="/assets/images/formfr-s.webp" alt=""></a>',
   },
   {
     contactPara1:
@@ -566,7 +566,7 @@ let en = [
   },
   { contactTitle: "You can contact me via this form or via the links below." },
   {
-    contactForm: `<a href="https://forms.gle/42yqmJ26zecSsn5i9" aria-label="contact form"><img loading="lazy"   src="/assets/images/formen-s.webp" alt=""></a>`,
+    contactForm: `<a target="_blank"  href="https://forms.gle/42yqmJ26zecSsn5i9" aria-label="contact form"><img loading="lazy"   src="/assets/images/formen-s.webp" alt=""></a>`,
   },
   { contactPara1: "Click on the image to be redirected to the contact form." },
   {
